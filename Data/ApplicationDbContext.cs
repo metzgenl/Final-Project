@@ -11,5 +11,6 @@ namespace Final_Project.Data
 
         public DbSet<GroupMember> GroupMembers => Set<GroupMember>();
         public DbSet<FavoriteMovie> FavoriteMovies => Set<FavoriteMovie>();
+        public DbSet<FavoriteFood> FavoriteFoods => Set<FavoriteFood>();
     }
 }
