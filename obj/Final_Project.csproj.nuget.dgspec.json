@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rudi\\Final-Project\\Final%20Project.csproj": {}
+    "C:\\Users\\Rudi\\Final-Project\\Final_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rudi\\Final-Project\\Final%20Project.csproj": {
+    "C:\\Users\\Rudi\\Final-Project\\Final_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rudi\\Final-Project\\Final%20Project.csproj",
-        "projectName": "Final%20Project",
-        "projectPath": "C:\\Users\\Rudi\\Final-Project\\Final%20Project.csproj",
+        "projectUniqueName": "C:\\Users\\Rudi\\Final-Project\\Final_Project.csproj",
+        "projectName": "Final_Project",
+        "projectPath": "C:\\Users\\Rudi\\Final-Project\\Final_Project.csproj",
         "packagesPath": "C:\\Users\\Rudi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Rudi\\Final-Project\\obj\\",
         "projectStyle": "PackageReference",
@@ -50,6 +50,25 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,6 +80,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }

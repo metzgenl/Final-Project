@@ -1,6 +1,6 @@
 using System;
 
-namespace FINAL-PROJECT.Models;
+namespace Final_Project.Models;
 public class GroupMember
 {
     public int Id { get; set; }
