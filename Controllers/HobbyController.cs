@@ -15,12 +15,6 @@ namespace Final_Project.Controllers
             _context = context;
         }
  
-        // GET: api/Hobby
-        [HttpGet]
-        public IActionResult GetHobbies()
-        {
-            return Ok(_context.Hobbies.Take(5).ToList());
-        }
  
         // GET: api/Hobby/5
         [HttpGet("{id}")]
