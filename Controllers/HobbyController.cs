@@ -35,7 +35,7 @@ namespace Final_Project.Controllers
         }
  
         // PUT: api/Hobby/5
-        [HttpPut("{ID}")]
+        [HttpPut("{id}")]
         public IActionResult UpdateHobby(int id, [FromBody] Hobby updatedHobby)
         {
             var hobby = _context.Hobbies.Find(id);
